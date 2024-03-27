@@ -1,25 +1,24 @@
-// swift-tools-version:5.3
+// swift-tools-version: 5.8
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "Pendo",
-    platforms: [
-        .iOS(.v11)
-    ],
+    name: "AppnomixCommerce",
+    platforms: [.iOS(.v15)],
     products: [
+        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "Pendo",
-            targets: ["Pendo"])
+            name: "AppnomixCommerce",
+            targets: ["AppnomixCommerce"]),
     ],
     dependencies: [
     ],
     targets: [
         .binaryTarget(
-            name: "Pendo",
-            url: "https://software.mobile.pendo.io/artifactory/ios-sdk-release/3.1.3.8266/pendo-ios-sdk-xcframework.3.1.3.8266.zip",
-            checksum: "ef10546e8f372412c3c07517c0b8ed556142dc36f25c0a99792f8f037a173317"
+            name: "AppnomixCommerce",
+            url: "https://github.com/Shopnomix/ios_binary_sdk/releases/download/0.2.3.binary/AppnomixCommerce.xcframework.zip",
+            checksum: "ccc0777bf3e425c8719764fe2d730ac6bbf3ee94780d5f8ba21c1f8eedbcdd34"
         ),
     ]
 )
