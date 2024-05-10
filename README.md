@@ -1,1 +1,1 @@
-# ios_binary_sdk
+# Appnomix Commerce SDK for iOS
