@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AppnomixCommerce",
-            url: "https://github.com/Shopnomix/ios_binary_sdk/releases/download/0.2.35/AppnomixCommerce.xcframework.zip",
-            checksum: "02776ca50aceb8227dae71eb3082edc0e176810eccad51cf5cfe29f31c4194c4"
+            url: "https://github.com/Shopnomix/ios_binary_sdk/releases/download/0.2.36/AppnomixCommerce.xcframework.zip",
+            checksum: "2fc955a423558db5cbb13e43524e016cb299c81f33aea7f3e782ddf26de5a97d"
         ),
     ]
 )
